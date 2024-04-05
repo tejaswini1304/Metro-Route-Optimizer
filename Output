@@ -1,0 +1,340 @@
+C:\Users\tejas\.jdks\openjdk-21.0.1\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.4\lib\idea_rt.jar=65170:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.2.4\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\tejas\Desktop\DSA\out\production\DSA PuneMetro
+
+*WELCOME TO PUNE METRO SERVICE*
+---------------------------------------------
+~How can I help you?
+1. List all stations
+2. Show the metro map
+3. Get shortest distance between stations
+4. Get shortest time to reach stations
+5. Get shortest path (distance wise) between stations
+6. REAL-TIME TRAFFIC UPDATE
+7. Exit
+Enter your choice (from 1 to 7): 
+1
+
+*********************
+List of all stations:
+1. Range Hills
+2. Swargate
+3. Ruby Hall Clinic
+4. Pune Railway Station
+5. Budhwar Peth
+6. Vanaz
+7. Phugewadi
+8. Bopoli
+9. Mangalwar Peth
+10. Sant Tukaram Nagar
+11. Civil Court
+12. Nal Stop
+13. PMC
+14. Deccan
+15. Ideal Colony
+16. Kalyani Nagar
+17. Bhosari
+18. PCMC
+19. Garware College
+20. Khadaki
+21. Yerwada
+22. Ramwadi
+23. Kasarwadi
+24. Bund Garden
+25. Shivaji Nagar
+26. C.Sambhaji Park
+27. Anand Nagar
+28. Mandai
+
+*WELCOME TO PUNE METRO SERVICE*
+---------------------------------------------
+~How can I help you?
+1. List all stations
+2. Show the metro map
+3. Get shortest distance between stations
+4. Get shortest time to reach stations
+5. Get shortest path (distance wise) between stations
+6. REAL-TIME TRAFFIC UPDATE
+7. Exit
+Enter your choice (from 1 to 7): 
+2
+
+*********************
+PUNE METRO MAP:
+------------------
+----------------------------------------------------
+
+STATION NAME			DISTANCE (in meters)
+-------------			------------------
+Range Hills==>
+	Shivaji Nagar		2000
+	Khadaki			2800
+
+Swargate==>
+	Mandai			1700
+
+Ruby Hall Clinic==>
+	Bund Garden		1700
+	Pune Railway Station	650
+
+Pune Railway Station==>
+	Ruby Hall Clinic	650
+	Mangalwar Peth		450
+
+Budhwar Peth==>
+	Mandai			1300
+	Civil Court		1100
+
+Vanaz==>
+	Anand Nagar		1000
+
+Phugewadi==>
+	Kasarwadi		1000
+	Bopoli			4000
+
+Bopoli==>
+	Phugewadi		4000
+	Khadaki			1500
+
+Mangalwar Peth==>
+	Pune Railway Station	450
+	Civil Court		2400
+
+Sant Tukaram Nagar==>
+	Bhosari			700
+	PCMC			2000
+
+Civil Court==>
+	Budhwar Peth		1100
+	PMC			1000
+	Shivaji Nagar		1500
+	Mangalwar Peth		2400
+
+Nal Stop==>
+	Ideal Colony		1000
+	Garware College		1200
+
+PMC==>
+	C.Sambhaji Park		750
+	Civil Court		1000
+
+Deccan==>
+	C.Sambhaji Park		650
+	Garware College		1000
+
+Ideal Colony==>
+	Nal Stop		1000
+	Anand Nagar		1700
+
+Kalyani Nagar==>
+	Ramwadi			2000
+	Yerwada			3400
+
+Bhosari==>
+	Kasarwadi		1400
+	Sant Tukaram Nagar	700
+
+PCMC==>
+	Sant Tukaram Nagar	2000
+
+Garware College==>
+	Nal Stop		1200
+	Deccan			1000
+
+Khadaki==>
+	Range Hills		2800
+	Bopoli			1500
+
+Yerwada==>
+	Bund Garden		1000
+	Kalyani Nagar		3400
+
+Ramwadi==>
+	Kalyani Nagar		2000
+
+Kasarwadi==>
+	Phugewadi		1000
+	Bhosari			1400
+
+Bund Garden==>
+	Ruby Hall Clinic	1700
+	Yerwada			1000
+
+Shivaji Nagar==>
+	Range Hills		2000
+	Civil Court		1500
+
+C.Sambhaji Park==>
+	PMC			750
+	Deccan			650
+
+Anand Nagar==>
+	Vanaz			1000
+	Ideal Colony		1700
+
+Mandai==>
+	Budhwar Peth		1300
+	Swargate		1700
+
+----------------------------------------------------
+
+
+*WELCOME TO PUNE METRO SERVICE*
+---------------------------------------------
+~How can I help you?
+1. List all stations
+2. Show the metro map
+3. Get shortest distance between stations
+4. Get shortest time to reach stations
+5. Get shortest path (distance wise) between stations
+6. REAL-TIME TRAFFIC UPDATE
+7. Exit
+Enter your choice (from 1 to 7): 
+3
+
+*********************
+List of stations:
+
+1. Range Hills
+2. Swargate
+3. Ruby Hall Clinic
+4. Pune Railway Station
+5. Budhwar Peth
+6. Vanaz
+7. Phugewadi
+8. Bopoli
+9. Mangalwar Peth
+10. Sant Tukaram Nagar
+11. Civil Court
+12. Nal Stop
+13. PMC
+14. Deccan
+15. Ideal Colony
+16. Kalyani Nagar
+17. Bhosari
+18. PCMC
+19. Garware College
+20. Khadaki
+21. Yerwada
+22. Ramwadi
+23. Kasarwadi
+24. Bund Garden
+25. Shivaji Nagar
+26. C.Sambhaji Park
+27. Anand Nagar
+28. Mandai
+Enter the Serial Number of Source Station:
+2
+Enter the Serial Number of Destination Station:
+22
+Shortest DISTANCE from Swargate TO Ramwadi IS-----> 15700 meters
+
+
+*WELCOME TO PUNE METRO SERVICE*
+---------------------------------------------
+~How can I help you?
+1. List all stations
+2. Show the metro map
+3. Get shortest distance between stations
+4. Get shortest time to reach stations
+5. Get shortest path (distance wise) between stations
+6. REAL-TIME TRAFFIC UPDATE
+7. Exit
+Enter your choice (from 1 to 7): 
+4
+
+*********************
+List of stations:
+
+1. Range Hills
+2. Swargate
+3. Ruby Hall Clinic
+4. Pune Railway Station
+5. Budhwar Peth
+6. Vanaz
+7. Phugewadi
+8. Bopoli
+9. Mangalwar Peth
+10. Sant Tukaram Nagar
+11. Civil Court
+12. Nal Stop
+13. PMC
+14. Deccan
+15. Ideal Colony
+16. Kalyani Nagar
+17. Bhosari
+18. PCMC
+19. Garware College
+20. Khadaki
+21. Yerwada
+22. Ramwadi
+23. Kasarwadi
+24. Bund Garden
+25. Shivaji Nagar
+26. C.Sambhaji Park
+27. Anand Nagar
+28. Mandai
+Enter the Serial Number of Source Station:
+2
+Enter the Serial Number of Destination Station:
+22
+Shortest Time from Swargate TO Ramwadi IS-----> 9.69 minutes
+
+
+*WELCOME TO PUNE METRO SERVICE*
+---------------------------------------------
+~How can I help you?
+1. List all stations
+2. Show the metro map
+3. Get shortest distance between stations
+4. Get shortest time to reach stations
+5. Get shortest path (distance wise) between stations
+6. REAL-TIME TRAFFIC UPDATE
+7. Exit
+Enter your choice (from 1 to 7): 
+5
+
+*********************
+Enter the Source Station:
+Swargate
+Enter the Destination Station:
+Ramwadi
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SOURCE STATION : Swargate
+DESTINATION STATION : Ramwadi
+DISTANCE : 15700
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+PATH: Swargate --> Mandai --> Budhwar --> Peth --> Civil --> Court --> Mangalwar --> Peth --> Pune --> Railway --> Station --> Ruby --> Hall --> Clinic --> Bund --> Garden --> Yerwada --> Kalyani --> Nagar --> Ramwadi ==> END
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+*WELCOME TO PUNE METRO SERVICE*
+---------------------------------------------
+~How can I help you?
+1. List all stations
+2. Show the metro map
+3. Get shortest distance between stations
+4. Get shortest time to reach stations
+5. Get shortest path (distance wise) between stations
+6. REAL-TIME TRAFFIC UPDATE
+7. Exit
+Enter your choice (from 1 to 7): 
+6
+
+*********************
+
+*WELCOME TO PUNE METRO SERVICE*
+---------------------------------------------
+~How can I help you?
+1. List all stations
+2. Show the metro map
+3. Get shortest distance between stations
+4. Get shortest time to reach stations
+5. Get shortest path (distance wise) between stations
+6. REAL-TIME TRAFFIC UPDATE
+7. Exit
+Enter your choice (from 1 to 7): 
+7
+
+*********************
+Exiting Pune Metro Service..!
+THANK YOU !!!
+
+Process finished with exit code 0
